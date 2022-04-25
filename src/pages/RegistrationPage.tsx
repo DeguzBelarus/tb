@@ -135,15 +135,15 @@ export const RegistrationPage: FC = () => {
       let seconds: any = date.getSeconds()
 
       if (hours < 10) {
-         hours += "0"
+         hours = "0" + hours
       }
 
       if (minutes < 10) {
-         minutes += "0"
+         minutes = "0" + minutes
       }
 
       if (seconds < 10) {
-         seconds += "0"
+         seconds = "0" + seconds
       }
 
       setChangeTime(`${day} ${month} в ${hours}:${minutes}:${seconds}`)
