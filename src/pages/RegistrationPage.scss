@@ -1,0 +1,307 @@
+.registration-page-wrapper {
+  height: 100%;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 90px;
+
+  .registration-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &__upper-container {
+      margin-bottom: 50px;
+
+      .registration-form__header {
+        position: relative;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34px;
+        color: #666666;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      .registration-form__name {
+        width: 284px;
+        margin-right: 123px;
+        margin-bottom: 43px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 34px;
+        color: black;
+      }
+
+      .registration-form__name-change-mode-button {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #0c77bb;
+        border-bottom: 1px dotted #0c77bb;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: pointer;
+      }
+    }
+
+    &__line {
+      width: 990px;
+      margin-bottom: 32px;
+      margin-left: 0;
+      border: 1px solid #e5e4e4;
+    }
+
+    &__city-select-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 39px;
+
+      select {
+        width: 336px;
+        height: 31px;
+        margin-left: 120px;
+        margin-right: 18px;
+        padding: 0;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        box-sizing: border-box;
+      }
+    }
+
+    &__uneversity-select-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 43px;
+
+      select {
+        width: 336px;
+        height: 31px;
+        margin-left: 54px;
+        margin-right: 18px;
+        padding: 0;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        box-sizing: border-box;
+      }
+    }
+
+    &__password-input-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+
+      input {
+        width: 336px;
+        height: 31px;
+        margin-left: 151px;
+        margin-right: 18px;
+        padding: 0;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        box-sizing: border-box;
+      }
+
+      span {
+        height: 40px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+        word-wrap: break-word;
+      }
+    }
+
+    &__password-error-message {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ff0000;
+      margin-left: 223px;
+    }
+
+    &__second-password-input-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+
+      input {
+        width: 336px;
+        height: 31px;
+        margin-left: 66px;
+        margin-right: 18px;
+        padding: 0;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        box-sizing: border-box;
+      }
+
+      span {
+        max-width: 355px;
+        height: 60px;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+        word-wrap: normal;
+      }
+    }
+
+    &__second-password-error-message {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ff0000;
+      margin-left: 223px;
+    }
+
+    &__email-input-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+
+      input {
+        width: 336px;
+        height: 31px;
+        margin-left: 36px;
+        margin-right: 18px;
+        padding: 0;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        box-sizing: border-box;
+      }
+
+      span {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+      }
+    }
+
+    &__email-error-message {
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #ff0000;
+      margin-left: 223px;
+    }
+
+    &__mailing-checkbox-wrapper {
+      height: 31px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 19px;
+      color: #000000;
+
+      #registration-form__mailing-checkbox {
+        width: 12px;
+        height: 12px;
+        margin-left: 115px;
+      }
+
+      span {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+      }
+    }
+
+    &__footer {
+      button {
+        width: 119px;
+        height: 40px;
+        background: #71c838;
+        box-shadow: 0px 1px 0px #539d22;
+        color: #ffffff;
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        border: none;
+        margin-top: 40px;
+        margin-left: 223px;
+        cursor: pointer;
+      }
+
+      span {
+        font-family: "Arial";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #999999;
+        margin-left: 12px;
+      }
+    }
+  }
+}

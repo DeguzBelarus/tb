@@ -1,0 +1,64 @@
+.status-change-wrapper {
+  width: 503px;
+  height: 46px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  bottom: -57px;
+  left: 223px;
+  padding-left: 12px;
+  background: #eaeaea;
+  opacity: 0;
+  animation-name: manifestation;
+  animation-fill-mode: forwards;
+  animation-duration: 0.7s;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -21px;
+    left: 11px;
+    border: 11px solid transparent;
+    border-bottom: 11px solid #eaeaea;
+    z-index: 1;
+  }
+
+  .name-input {
+    position: relative;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404040;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .accept-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+  }
+}
+
+@keyframes manifestation {
+  100% {
+    opacity: 1;
+  }
+}
