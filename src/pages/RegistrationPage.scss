@@ -1,9 +1,5 @@
 .registration-page-wrapper {
   height: 100%;
-  padding-top: 90px;
-  padding-bottom: 100px;
-  padding-left: 100px;
-  padding-right: 90px;
 
   .registration-form {
     width: 100%;
@@ -12,15 +8,11 @@
     flex-direction: column;
 
     &__upper-container {
-      margin-bottom: 50px;
-
       .registration-form__header {
         position: relative;
         font-family: "Arial";
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
-        line-height: 34px;
         color: #666666;
         -ms-user-select: none;
         -webkit-user-select: none;
@@ -28,14 +20,9 @@
       }
 
       .registration-form__name {
-        width: 284px;
-        margin-right: 123px;
-        margin-bottom: 43px;
         font-family: "Arial";
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
-        line-height: 34px;
         color: black;
       }
 
@@ -43,8 +30,6 @@
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 22px;
         color: #0c77bb;
         border-bottom: 1px dotted #0c77bb;
         -ms-user-select: none;
@@ -55,95 +40,72 @@
     }
 
     &__line {
-      width: 990px;
-      margin-bottom: 32px;
       margin-left: 0;
       border: 1px solid #e5e4e4;
     }
 
     &__city-select-wrapper {
-      height: 31px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
-      margin-bottom: 39px;
 
       select {
-        width: 336px;
-        height: 31px;
-        margin-left: 120px;
-        margin-right: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         padding: 0;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
         box-sizing: border-box;
       }
     }
 
     &__uneversity-select-wrapper {
-      height: 31px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
-      margin-bottom: 43px;
 
       select {
-        width: 336px;
-        height: 31px;
-        margin-left: 54px;
-        margin-right: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         padding: 0;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
         box-sizing: border-box;
       }
     }
 
     &__password-input-wrapper {
-      height: 31px;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
 
       input {
-        width: 336px;
-        height: 31px;
-        margin-left: 151px;
-        margin-right: 18px;
-        padding: 0;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
         box-sizing: border-box;
       }
 
       span {
-        height: 40px;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
         color: #999999;
         word-wrap: break-word;
       }
@@ -153,44 +115,27 @@
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-      line-height: 20px;
       color: #ff0000;
-      margin-left: 223px;
     }
 
     &__second-password-input-wrapper {
-      height: 31px;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
 
       input {
-        width: 336px;
-        height: 31px;
-        margin-left: 66px;
-        margin-right: 18px;
-        padding: 0;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
         box-sizing: border-box;
       }
 
       span {
-        max-width: 355px;
-        height: 60px;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
         color: #999999;
         word-wrap: normal;
       }
@@ -200,32 +145,19 @@
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-      line-height: 20px;
       color: #ff0000;
-      margin-left: 223px;
     }
 
     &__email-input-wrapper {
-      height: 31px;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
 
       input {
-        width: 336px;
-        height: 31px;
-        margin-left: 36px;
-        margin-right: 18px;
-        padding: 0;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
         box-sizing: border-box;
       }
@@ -234,8 +166,6 @@
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 20px;
         color: #999999;
       }
     }
@@ -244,52 +174,37 @@
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-      line-height: 20px;
       color: #ff0000;
-      margin-left: 223px;
     }
 
     &__mailing-checkbox-wrapper {
-      height: 31px;
       font-family: "Arial";
       font-style: normal;
       font-weight: 400;
-      font-size: 21px;
-      line-height: 19px;
       color: #000000;
 
       #registration-form__mailing-checkbox {
         width: 12px;
         height: 12px;
-        margin-left: 115px;
       }
 
       span {
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
         color: #000000;
       }
     }
 
     &__footer {
       button {
-        width: 119px;
-        height: 40px;
         background: #71c838;
         box-shadow: 0px 1px 0px #539d22;
         color: #ffffff;
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
         border: none;
-        margin-top: 40px;
-        margin-left: 223px;
         cursor: pointer;
       }
 
@@ -297,10 +212,1223 @@
         font-family: "Arial";
         font-style: normal;
         font-weight: 400;
+        color: #999999;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 20px;
+
+        .registration-form__header {
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        .registration-form__name {
+          width: 200px;
+          margin-right: 5px;
+          margin-bottom: 20px;
+          font-size: 14px;
+          line-height: 17px;
+          color: black;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 6px;
+          line-height: 11px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 15.5px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-bottom: 15px;
+
+        select {
+          width: 110px;
+          height: 15px;
+          margin-left: 45px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 8px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 15.5px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-bottom: 10px;
+
+        select {
+          width: 110px;
+          height: 15.5px;
+          margin-left: 11px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 8px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        border: 1px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 16px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-bottom: 10px;
+
+        input {
+          width: 110px;
+          height: 16px;
+          margin-left: 61px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 6px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 16px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-bottom: 10px;
+
+        input {
+          width: 110px;
+          height: 16px;
+          margin-left: 17.27px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 6px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 16px;
+        font-size: 11px;
+        line-height: 10px;
+        margin-bottom: 10px;
+
+        input {
+          width: 110.5px;
+          height: 16px;
+          margin-left: 3px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 6px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 16px;
+        font-size: 11px;
+        line-height: 10px;
+
+        #registration-form__mailing-checkbox {
+          width: 10px;
+          height: 10px;
+          margin-left: 15px;
+        }
+
+        span {
+          font-size: 8px;
+          line-height: 10px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 60px;
+          height: 20px;
+          font-size: 9px;
+          line-height: 10px;
+          margin-top: 15px;
+          margin-left: 112px;
+        }
+
+        span {
+          display: block;
+          margin-top: 5px;
+          font-size: 6px;
+          line-height: 10px;
+          margin-left: 81px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 26px;
+    padding-right: 20px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 26px;
+
+        .registration-form__header {
+          font-size: 15px;
+          line-height: 18px;
+        }
+
+        .registration-form__name {
+          width: 200px;
+          margin-right: 5px;
+          margin-bottom: 20px;
+          font-size: 15px;
+          line-height: 18px;
+          color: black;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 7px;
+          line-height: 11px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 16px;
+
+        select {
+          width: 115px;
+          height: 15px;
+          margin-left: 53px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 8px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 16px;
+
+        select {
+          width: 115px;
+          height: 15px;
+          margin-left: 15.52px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 8px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        border: 1px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+
+        input {
+          width: 115px;
+          height: 15px;
+          margin-left: 70px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 7px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+
+        input {
+          width: 115px;
+          height: 15px;
+          margin-left: 22px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 7px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+
+        input {
+          width: 115px;
+          height: 15px;
+          margin-left: 5px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 8px;
+        }
+
+        span {
+          height: 20px;
+          display: block;
+          font-size: 7px;
+          line-height: 10px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 6px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 17px;
+        font-size: 12px;
+        line-height: 12px;
+
+        #registration-form__mailing-checkbox {
+          width: 11px;
+          height: 11px;
+          margin-left: 15px;
+        }
+
+        span {
+          font-size: 8px;
+          line-height: 10px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 66px;
+          height: 22px;
+          font-size: 10px;
+          line-height: 11px;
+          margin-top: 16px;
+          margin-left: 115px;
+        }
+
+        span {
+          display: block;
+          margin-top: 5px;
+          font-size: 7px;
+          line-height: 10px;
+          margin-left: 77px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 25px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 32px;
+
+        .registration-form__header {
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        .registration-form__name {
+          width: 200px;
+          margin-right: 5px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 8px;
+          line-height: 12px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 17px;
+
+        select {
+          width: 130px;
+          height: 17px;
+          margin-left: 61px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 9px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 17px;
+
+        select {
+          width: 130px;
+          height: 17px;
+          margin-left: 17px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 9px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        border: 1px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 10px;
+
+        input {
+          width: 130px;
+          height: 17px;
+          margin-left: 81px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 10px;
+          display: inline;
+          font-size: 8px;
+          line-height: 11px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
+        font-size: 7px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 10px;
+
+        input {
+          width: 130px;
+          height: 17px;
+          margin-left: 25px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 10px;
+          display: inline;
+          font-size: 8px;
+          line-height: 11px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 7px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 10px;
+
+        input {
+          width: 130px;
+          height: 17px;
+          margin-left: 5px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 10px;
+          display: inline;
+          font-size: 8px;
+          line-height: 11px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 7px;
+        line-height: 10px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 19px;
+        font-size: 14px;
+        line-height: 14px;
+
+        #registration-form__mailing-checkbox {
+          width: 11px;
+          height: 11px;
+          margin-left: 57px;
+        }
+
+        span {
+          font-size: 8px;
+          line-height: 10px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 72px;
+          height: 24px;
+          font-size: 12px;
+          line-height: 13px;
+          margin-top: 17px;
+          margin-left: 131px;
+        }
+
+        span {
+          display: block;
+          margin-top: 6px;
+          font-size: 8px;
+          line-height: 11px;
+          margin-left: 85px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: 42px;
+    padding-right: 32.5px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 42px;
+
+        .registration-form__header {
+          font-size: 21px;
+          line-height: 24px;
+        }
+
+        .registration-form__name {
+          margin-right: 5px;
+          margin-bottom: 20px;
+          font-size: 21px;
+          line-height: 24px;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 10.5px;
+          line-height: 15.5px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 22px;
+
+        select {
+          width: 200px;
+          height: 22px;
+          margin-left: 91.5px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 9px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 22px;
+
+        select {
+          width: 200px;
+          height: 22px;
+          margin-left: 34.5px;
+          margin-right: 9px;
+          padding: 0;
+          font-size: 9px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+        border: 1px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 22px;
+
+        input {
+          width: 200px;
+          height: 22px;
+          margin-left: 116.5px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 13px;
+          display: inline;
+          font-size: 10.5px;
+          line-height: 14.5px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
+        font-size: 9px;
+        line-height: 13px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 22px;
+
+        input {
+          width: 200px;
+          height: 22px;
+          margin-left: 45px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 13px;
+          display: inline;
+          font-size: 10.5px;
+          line-height: 14.5px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 9px;
+        line-height: 13px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 22px;
+
+        input {
+          width: 200px;
+          height: 22px;
+          margin-left: 20px;
+          margin-right: 9px;
+          padding: 2px;
+          font-size: 9px;
+        }
+
+        span {
+          height: 13px;
+          display: inline;
+          font-size: 10.5px;
+          line-height: 14.5px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 9px;
+        line-height: 13px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 25px;
+        font-size: 18px;
+        line-height: 18px;
+
+        #registration-form__mailing-checkbox {
+          width: 11px;
+          height: 11px;
+          margin-left: 86.5px;
+        }
+
+        span {
+          font-size: 10.5px;
+          line-height: 13px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 93px;
+          height: 31px;
+          font-size: 15px;
+          line-height: 17px;
+          margin-top: 30px;
+          margin-left: 180.5px;
+        }
+
+        span {
+          display: inline;
+          font-size: 10.5px;
+          line-height: 14.5px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 80px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 50px;
+
+        .registration-form__header {
+          font-size: 30px;
+          line-height: 34px;
+        }
+
+        .registration-form__name {
+          margin-right: 5px;
+          margin-bottom: 43px;
+          font-size: 30px;
+          line-height: 34px;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 12px;
+          line-height: 22px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+        margin-bottom: 39px;
+
+        select {
+          width: 336px;
+          height: 31px;
+          margin-left: 120px;
+          margin-right: 18px;
+          padding: 0;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+        margin-bottom: 19px;
+
+        select {
+          width: 336px;
+          height: 31px;
+          margin-left: 54px;
+          margin-right: 18px;
+          padding: 0;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+        border: 1px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+
+        input {
+          width: 336px;
+          height: 31px;
+          margin-left: 151px;
+          margin-right: 18px;
+          padding: 2px;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        span {
+          height: 40px;
+          display: inline;
+          font-size: 12px;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
         font-size: 12px;
         line-height: 20px;
-        color: #999999;
-        margin-left: 12px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+        margin-bottom: 22px;
+
+        input {
+          width: 336px;
+          height: 31px;
+          margin-left: 66px;
+          margin-right: 18px;
+          padding: 2px;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        span {
+          height: 60px;
+          display: inline;
+          font-size: 12px;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+        margin-bottom: 22px;
+
+        input {
+          width: 336px;
+          height: 31px;
+          margin-left: 36px;
+          margin-right: 18px;
+          padding: 2px;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+        span {
+          height: 13px;
+          display: inline;
+          font-size: 12px;
+          line-height: 20px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 31px;
+        font-size: 21px;
+        line-height: 19px;
+
+        #registration-form__mailing-checkbox {
+          width: 12px;
+          height: 12px;
+          margin-left: 115px;
+        }
+
+        span {
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 119px;
+          height: 40px;
+          font-size: 18px;
+          line-height: 20px;
+          margin-top: 40px;
+          margin-left: 223px;
+        }
+
+        span {
+          display: inline;
+          font-size: 12px;
+          line-height: 20px;
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .registration-page-wrapper {
+    height: 100%;
+    padding-top: 153px;
+    padding-bottom: 170px;
+    padding-left: 170px;
+    padding-right: 136px;
+
+    .registration-form {
+      display: flex;
+      flex-direction: column;
+
+      &__upper-container {
+        margin-bottom: 85px;
+
+        .registration-form__header {
+          font-size: 51px;
+          line-height: 58px;
+        }
+
+        .registration-form__name {
+          margin-right: 8px;
+          margin-bottom: 73px;
+          font-size: 51px;
+          line-height: 58px;
+        }
+
+        .registration-form__name-change-mode-button {
+          font-size: 20.5px;
+          line-height: 37.5px;
+        }
+      }
+
+      &__city-select-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+        margin-bottom: 66px;
+
+        select {
+          width: 571px;
+          height: 53px;
+          margin-left: 204px;
+          margin-right: 31px;
+          padding: 0;
+          font-size: 27px;
+          line-height: 32px;
+        }
+      }
+
+      &__uneversity-select-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+        margin-bottom: 32.3px;
+
+        select {
+          width: 571px;
+          height: 53px;
+          margin-left: 92px;
+          margin-right: 31px;
+          padding: 0;
+          font-size: 27px;
+          line-height: 32px;
+        }
+      }
+
+      &__line {
+        width: 100%;
+        margin-bottom: 54px;
+        margin-left: 0;
+        border: 2px solid #e5e4e4;
+      }
+
+      &__password-input-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+
+        input {
+          width: 571px;
+          height: 53px;
+          margin-left: 256.5px;
+          margin-right: 31px;
+          padding: 4px;
+          font-size: 27px;
+          line-height: 32px;
+        }
+
+        span {
+          height: 68px;
+          display: inline;
+          font-size: 20.5px;
+          line-height: 34px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__password-error-message {
+        font-size: 20.5px;
+        line-height: 34px;
+        margin-left: 0px;
+      }
+
+      &__second-password-input-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+        margin-bottom: 37px;
+
+        input {
+          width: 571px;
+          height: 53px;
+          margin-left: 112px;
+          margin-right: 31px;
+          padding: 4px;
+          font-size: 27px;
+          line-height: 32px;
+        }
+
+        span {
+          height: 68px;
+          display: inline;
+          font-size: 20.5px;
+          line-height: 34px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__second-password-error-message {
+        font-size: 20.5px;
+        line-height: 34px;
+        margin-left: 0px;
+      }
+
+      &__email-input-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+        margin-bottom: 37px;
+
+        input {
+          width: 571px;
+          height: 53px;
+          margin-left: 61px;
+          margin-right: 31px;
+          padding: 4px;
+          font-size: 27px;
+          line-height: 32px;
+        }
+
+        span {
+          height: 68px;
+          display: inline;
+          font-size: 20.5px;
+          line-height: 34px;
+          word-wrap: break-word;
+        }
+      }
+
+      &__email-error-message {
+        font-size: 20.5px;
+        line-height: 34px;
+        margin-left: 0px;
+      }
+
+      &__mailing-checkbox-wrapper {
+        height: 52px;
+        font-size: 35.5px;
+        line-height: 32.3px;
+
+        #registration-form__mailing-checkbox {
+          width: 20.5px;
+          height: 20.5px;
+          margin-left: 195.5px;
+        }
+
+        span {
+          font-size: 27px;
+          line-height: 32px;
+        }
+      }
+
+      &__footer {
+        button {
+          width: 202px;
+          height: 68px;
+          font-size: 31px;
+          line-height: 34px;
+          margin-top: 68px;
+          margin-left: 379px;
+        }
+
+        span {
+          display: inline;
+          font-size: 20.5px;
+          line-height: 34px;
+          margin-left: 20.5px;
+        }
       }
     }
   }

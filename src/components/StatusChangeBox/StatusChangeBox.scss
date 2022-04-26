@@ -1,13 +1,8 @@
 .status-change-wrapper {
-  width: 503px;
-  height: 46px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  bottom: -57px;
-  left: 223px;
-  padding-left: 12px;
   background: #eaeaea;
   opacity: 0;
   animation-name: manifestation;
@@ -18,20 +13,17 @@
     content: "";
     display: block;
     position: absolute;
-    top: -21px;
-    left: 11px;
-    border: 11px solid transparent;
-    border-bottom: 11px solid #eaeaea;
     z-index: 1;
   }
 
   .name-input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
     font-family: "Arial";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
     color: #404040;
     border: none;
 
@@ -45,8 +37,6 @@
     justify-content: center;
     align-items: center;
     color: green;
-    margin-left: 10px;
-    margin-right: 5px;
   }
 
   .close-button {
@@ -60,5 +50,197 @@
 @keyframes manifestation {
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .status-change-wrapper {
+    width: 190px;
+    height: 46px;
+    bottom: -57px;
+    left: 90px;
+    padding-left: 12px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 10px;
+      line-height: 16px;
+    }
+
+    .accept-button {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 9px;
+    }
+
+    .close-button {
+      font-size: 9px;
+    }
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .status-change-wrapper {
+    width: 215px;
+    height: 46px;
+    bottom: -57px;
+    left: 97px;
+    padding-left: 12px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 11px;
+      line-height: 16px;
+    }
+
+    .accept-button {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 9px;
+    }
+
+    .close-button {
+      font-size: 9px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .status-change-wrapper {
+    width: 218px;
+    height: 46px;
+    bottom: -57px;
+    left: 104px;
+    padding-left: 12px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    .accept-button {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 9px;
+    }
+
+    .close-button {
+      font-size: 9px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .status-change-wrapper {
+    width: 238px;
+    height: 48px;
+    bottom: -57px;
+    left: 144px;
+    padding-left: 12px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 13px;
+      line-height: 19px;
+    }
+
+    .accept-button {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 9px;
+    }
+
+    .close-button {
+      font-size: 9px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .status-change-wrapper {
+    width: 238px;
+    height: 50px;
+    bottom: -57px;
+    left: 215px;
+    padding-left: 12px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .accept-button {
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 10px;
+    }
+
+    .close-button {
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .status-change-wrapper {
+    width: 405px;
+    height: 85px;
+    bottom: -90px;
+    left: 385px;
+    padding-left: 18px;
+
+    &::before {
+      top: -21px;
+      left: 11px;
+      border: 11px solid transparent;
+      border-bottom: 11px solid #eaeaea;
+    }
+
+    .name-input {
+      font-size: 24px;
+      line-height: 35px;
+    }
+
+    .accept-button {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+
+    .close-button {
+      font-size: 20px;
+    }
   }
 }
