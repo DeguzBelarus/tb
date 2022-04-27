@@ -28,6 +28,15 @@ export const StatusChangeBox: FC<Props> = ({
       setNameChangeMode(false)
    }
 
+   const nameUpdateHandleOnKey = (event: any) => {
+      if (event.key === "Enter") {
+
+         const newName = nameInput.current.value
+         nameUpdate(newName)
+         setNameChangeMode(false)
+      }
+   }
+
    const nameChangeModeHandle = () => {
       setNameChangeMode(false)
    }
@@ -41,6 +50,7 @@ export const StatusChangeBox: FC<Props> = ({
          title="Введите Ваше имя"
          defaultValue={formData.name}
          name="name"
+         onKeyPress={nameUpdateHandleOnKey}
          ref={nameInput} />
 
       <button type="button" className="accept-button" onClick={nameUpdateHandle}>✔</button>
