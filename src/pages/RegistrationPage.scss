@@ -829,197 +829,202 @@
 @media screen and (min-width: 1024px) {
   .registration-page-wrapper {
     height: 100%;
-    padding-top: 42px;
-    padding-bottom: 42px;
-    padding-left: 42px;
-    padding-right: 32.5px;
+    padding-top: 76.5px;
+    padding-bottom: 85px;
+    padding-left: 85px;
+    padding-right: 68px;
 
     .registration-form {
       display: flex;
       flex-direction: column;
 
       &__upper-container {
-        margin-bottom: 42px;
+        margin-bottom: 42.5px;
 
         .registration-form__header {
-          font-size: 21px;
-          line-height: 24px;
+          font-size: 25.5px;
+          line-height: 29px;
         }
 
         .registration-form__name {
           margin-right: 5px;
-          margin-bottom: 20px;
-          font-size: 21px;
-          line-height: 24px;
+          margin-bottom: 36.5px;
+          font-size: 25.5px;
+          line-height: 29px;
         }
 
         .registration-form__name-change-mode-button {
           font-size: 10.5px;
-          line-height: 15.5px;
+          line-height: 10.5px;
         }
       }
 
       &__city-select-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
-        margin-bottom: 22px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
+        margin-bottom: 33.5px;
 
         select {
-          width: 200px;
-          height: 22px;
-          margin-left: 91.5px;
-          margin-right: 9px;
+          width: 285.5px;
+          height: 27px;
+          margin-left: 102px;
+          margin-right: 15.5px;
           padding: 0;
-          font-size: 9px;
+          font-size: 13px;
+          line-height: 16px;
         }
       }
 
       &__uneversity-select-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
-        margin-bottom: 22px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
+        margin-bottom: 16px;
 
         select {
-          width: 200px;
-          height: 22px;
-          margin-left: 34.5px;
-          margin-right: 9px;
+          width: 285.5px;
+          height: 27px;
+          margin-left: 42.5px;
+          margin-right: 15.5px;
           padding: 0;
-          font-size: 9px;
+          font-size: 13px;
+          line-height: 16px;
         }
       }
 
       &__line {
-        width: 780px;
-        margin-bottom: 15px;
+        width: 900px;
+        margin-bottom: 27.5px;
         margin-left: 0;
         border: 1px solid #e5e4e4;
       }
 
       &__password-input-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
         margin-bottom: 3px;
 
         input {
-          width: 200px;
-          height: 22px;
-          margin-left: 116.5px;
-          margin-right: 9px;
+          width: 285.5px;
+          height: 27px;
+          margin-left: 130px;
+          margin-right: 15.5px;
           padding: 2px;
-          font-size: 9px;
+          font-size: 13px;
+          line-height: 16px;
         }
 
         span {
-          height: 13px;
+          height: 34px;
           display: inline;
           font-size: 10.5px;
-          line-height: 14.5px;
+          line-height: 17px;
           word-wrap: break-word;
         }
       }
 
       &__password-error-message {
-        font-size: 9px;
-        line-height: 13px;
-        margin-left: 180.5px;
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 197px;
       }
 
       &__second-password-input-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
         margin-bottom: 3px;
 
         input {
-          width: 200px;
-          height: 22px;
-          margin-left: 45px;
-          margin-right: 9px;
+          width: 285.5px;
+          height: 27px;
+          margin-left: 53px;
+          margin-right: 15.5px;
           padding: 2px;
-          font-size: 9px;
+          font-size: 13px;
+          line-height: 16px;
         }
 
         span {
-          height: 13px;
+          height: 34px;
           display: inline;
           font-size: 10.5px;
-          line-height: 14.5px;
+          line-height: 17px;
           word-wrap: break-word;
         }
       }
 
       &__second-password-error-message {
-        font-size: 9px;
-        line-height: 13px;
-        margin-left: 180.5px;
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 197px;
       }
 
       &__email-input-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
         margin-bottom: 3px;
 
         input {
-          width: 200px;
-          height: 22px;
-          margin-left: 20px;
-          margin-right: 9px;
+          width: 285.5px;
+          height: 27px;
+          margin-left: 26.5px;
+          margin-right: 15.5px;
           padding: 2px;
-          font-size: 9px;
+          font-size: 13px;
+          line-height: 16px;
         }
 
         span {
-          height: 13px;
+          height: 34px;
           display: inline;
           font-size: 10.5px;
-          line-height: 14.5px;
+          line-height: 17px;
           word-wrap: break-word;
         }
       }
 
       &__email-error-message {
-        font-size: 9px;
-        line-height: 13px;
-        margin-left: 180.5px;
+        font-size: 10px;
+        line-height: 17px;
+        margin-left: 197px;
       }
 
       &__mailing-checkbox-wrapper {
-        height: 25px;
-        font-size: 18px;
-        line-height: 18px;
+        height: 27px;
+        font-size: 19px;
+        line-height: 19px;
 
         #registration-form__mailing-checkbox {
-          width: 11px;
-          height: 11px;
-          margin-left: 86.5px;
+          width: 12px;
+          height: 12px;
+          margin-left: 98px;
         }
 
         span {
-          font-size: 10.5px;
-          line-height: 13px;
+          font-size: 13.5px;
+          line-height: 16.5px;
         }
       }
 
       &__footer {
         button {
-          width: 93px;
-          height: 31px;
-          font-size: 15px;
+          width: 102px;
+          height: 35px;
+          font-size: 16px;
           line-height: 17px;
-          margin-top: 30px;
-          margin-left: 180.5px;
+          margin-top: 34px;
+          margin-left: 197px;
         }
 
         span {
           display: inline;
           font-size: 10.5px;
-          line-height: 14.5px;
-          margin-left: 10px;
+          line-height: 17px;
+          margin-left: 11px;
         }
       }
     }
